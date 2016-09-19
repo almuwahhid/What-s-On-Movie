@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/mengenai"
+            android:title="Mengenai Aplikasi" />
+        <item
+            android:id="@+id/nav_tentang"
+            android:icon="@drawable/info"
+            android:title="Tentang Pengembang" />
+        <item
+            android:id="@+id/nav_fav"
+            android:icon="@drawable/fav"
+            android:title="Favorit" />
+    </group>
+
+    <item android:title="Feedback">
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

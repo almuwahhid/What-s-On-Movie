@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.finalproject.androidkejar.wahid.preketek.MainActivity">
+    <item
+        android:id="@+id/action_popular"
+        android:orderInCategory="100"
+        android:title="@string/popular"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_topRated"
+        android:orderInCategory="100"
+        android:title="@string/top"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_nowPlaying"
+        android:orderInCategory="100"
+        android:title="@string/nowPlaying"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_upComing"
+        android:orderInCategory="100"
+        android:title="@string/upcoming"
+        app:showAsAction="never" />
+</menu>
