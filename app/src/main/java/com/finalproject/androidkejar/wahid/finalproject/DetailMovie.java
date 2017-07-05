@@ -185,9 +185,6 @@ public class DetailMovie extends AppCompatActivity {
         return (super.onOptionsItemSelected(item));
     }
     private class VideoAsyntax extends AsyncTask<String, Void, Boolean> {
-
-
-
         @Override
         protected void onPreExecute() {
             super.onPreExecute();

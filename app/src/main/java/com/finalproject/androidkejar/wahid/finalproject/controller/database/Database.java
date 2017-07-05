@@ -4,6 +4,7 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.util.Log;
 
 /**
  * Created by gueone on 5/10/2016.
@@ -17,6 +18,8 @@ public class Database extends SQLiteOpenHelper {
     }
     @Override
     public void onCreate(SQLiteDatabase db) {
+        Log.d("asd", "onCreate: ");
+
         String sql = "CREATE TABLE IF NOT EXISTS favorit(_id INTEGER PRIMARY KEY AUTOINCREMENT, id_Movie TEXT, title TEXT, pathPoster TEXT, bgPath TEXT, rate TEXT, rilis TEXT, sinopsis TEXT, trailer TEXT)";
         db.execSQL(sql);
     }
